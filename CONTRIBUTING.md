@@ -1,154 +1,109 @@
 # Contributing to CloakFlow
 
-Thank you for considering contributing to CloakFlow! We appreciate your interest in our project and look forward to your contributions.
+Thank you for your interest in contributing to CloakFlow! As a privacy-focused productivity application with AI capabilities, we value contributions that help improve our project while maintaining our commitment to user privacy and data security.
 
-## Getting Started
-
-To get started with contributing to CloakFlow, please follow these steps:
-
-1. Fork the repository to your GitHub account.
-2. Clone the repository to your local machine.
-3. Install the required dependencies.
-4. Run the tests to ensure everything is working correctly.
-
-## Code of Conduct
-
-We expect all contributors to adhere to our code of conduct, which can be found in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
-
-## Contributing Guidelines
-
-To contribute to CloakFlow, please follow these guidelines:
-
-### Bug Reports and Feature Requests
-
-- Use the GitHub issue tracker to report bugs or request features.
-- Before creating an issue, please check if a similar issue already exists.
-- When reporting bugs, include as much relevant information as possible, such as:
-    - Steps to reproduce the issue
-    - Expected behavior
-    - Actual behavior
-    - Error messages and stack traces, if applicable
-    - Environment details (OS, browser, etc.)
-
-### Pull Requests
-
-1. Create a new branch for your feature or bug fix.
-2. Write tests for your changes.
-3. Ensure all tests pass.
-4. Submit a pull request with a clear description of your changes.
-
-### Coding Standards
-
-- Follow the existing coding style and conventions used in the project.
-- Write clear, readable, and maintainable code.
-- Add comments to explain complex or non-obvious code sections.
-- Keep commits focused and atomic.
-
-### Commit Message Guidelines
-
-Please follow these guidelines when writing commit messages:
-
-- Use the present tense ("Add feature" not "Added feature")
-- Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
-- Limit the first line to 72 characters or less
-- Reference issues and pull requests in the commit message when applicable
-
-## Development Workflow
-
-Our development workflow involves the following steps:
-
-1. Create a new branch for your feature or bug fix.
-2. Submit a pull request with a clear description of your changes.
-3. Participate in code reviews and address any feedback.
-4. Once approved, merge your changes into the main branch.
-
-## Security Considerations
-
-We take security seriously at CloakFlow. If you discover a security vulnerability, please report it to us by sending an email to security@cloakflow.com instead of creating a public issue.
-
-## License and Copyright
-
-CloakFlow is licensed under the [MIT License](LICENSE). By contributing to CloakFlow, you agree to release your contributions under this license.
-
-## Acknowledgments
-
-We would like to thank all our contributors for their hard work and dedication to the project. Your contributions are invaluable to us, and we look forward to seeing your future contributions.
-
-
-None
-Last output from code snippet:
-# Contributing to CloakFlow
-
-Thank you for considering contributing to CloakFlow! We appreciate your interest in our project and look forward to your contributions.
-
-## Getting Started
-
-To get started with contributing to CloakFlow, please follow these steps:
-
-1. Fork the repository to your GitHub account.
-2. Clone the repository to your local machine.
-3. Install the required dependencies.
-4. Run the tests to ensure everything is working correctly.
+## Table of Contents
+- [Code of Conduct](#code-of-conduct)
+- [Getting Started](#getting-started)
+- [How to Contribute](#how-to-contribute)
+- [Pull Request Process](#pull-request-process)
+- [Style Guidelines](#style-guidelines)
+- [Testing Requirements](#testing-requirements)
+- [Issue Reporting Guidelines](#issue-reporting-guidelines)
+- [Privacy Considerations](#privacy-considerations)
+- [License](#license)
 
 ## Code of Conduct
 
-We expect all contributors to adhere to our code of conduct, which can be found in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+Our project adopts a Code of Conduct that we expect all participants to adhere to. Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before contributing to the project. By participating, you are expected to uphold this code.
 
-## Contributing Guidelines
+## Getting Started
 
-To contribute to CloakFlow, please follow these guidelines:
+### Prerequisites
+- Git
+- A GitHub account
+- Required development environment as specified in the [README.md](README.md)
 
-### Bug Reports and Feature Requests
+### Setting up your development environment
+1. Fork the repository on GitHub
+2. Clone your fork locally: `git clone https://github.com/[your-username]/cloakflow.git`
+3. Add the original repository as a remote: `git remote add upstream https://github.com/[organization]/cloakflow.git`
+4. Follow the setup instructions in the [README.md](README.md)
 
-- Use the GitHub issue tracker to report bugs or request features.
-- Before creating an issue, please check if a similar issue already exists.
-- When reporting bugs, include as much relevant information as possible, such as:
-    - Steps to reproduce the issue
-    - Expected behavior
-    - Actual behavior
-    - Error messages and stack traces, if applicable
-    - Environment details (OS, browser, etc.)
+## How to Contribute
 
-### Pull Requests
+### Finding Issues to Work On
+- Check the [issues page](https://github.com/[organization]/cloakflow/issues) for open tasks
+- Issues labeled `good first issue` are suitable for newcomers
+- Issues labeled `help wanted` are actively seeking community assistance
 
-1. Create a new branch for your feature or bug fix.
-2. Write tests for your changes.
-3. Ensure all tests pass.
-4. Submit a pull request with a clear description of your changes.
+### Making Changes
+1. Create a new branch for your changes: `git checkout -b feature/your-feature-name`
+2. Make your changes and commit them with clear, descriptive messages
+3. Push your branch to your fork: `git push origin feature/your-feature-name`
+4. Submit a Pull Request against the main repository
 
-### Coding Standards
+## Pull Request Process
 
-- Follow the existing coding style and conventions used in the project.
-- Write clear, readable, and maintainable code.
-- Add comments to explain complex or non-obvious code sections.
-- Keep commits focused and atomic.
+1. Update the README.md or documentation with details of changes to the interface, if applicable
+2. Ensure your code adheres to the style guidelines
+3. Make sure all tests pass
+4. Update the CHANGELOG.md with details of changes if significant
+5. The PR will be merged once it receives approval from maintainers
 
-### Commit Message Guidelines
+### Review Process
+- A project maintainer will review your PR
+- Address any feedback or requested changes
+- Once approved, a maintainer will merge your contribution
 
-Please follow these guidelines when writing commit messages:
+## Style Guidelines
 
-- Use the present tense ("Add feature" not "Added feature")
-- Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
-- Limit the first line to 72 characters or less
-- Reference issues and pull requests in the commit message when applicable
+### Code Style
+- Follow the existing code style present in the project
+- For JavaScript/TypeScript, we use [ESLint](https://eslint.org/) with our configuration
+- For Python code, follow [PEP 8](https://www.python.org/dev/peps/pep-0008/) guidelines
+- Document your code using appropriate comments and docstrings
 
-## Development Workflow
+### Commit Messages
+- Use clear and descriptive commit messages
+- Start with a capitalized, short (50 chars or less) summary
+- Follow with a more detailed explanation if necessary
+- Reference issues and pull requests liberally after the first line
 
-Our development workflow involves the following steps:
+## Testing Requirements
 
-1. Create a new branch for your feature or bug fix.
-2. Submit a pull request with a clear description of your changes.
-3. Participate in code reviews and address any feedback.
-4. Once approved, merge your changes into the main branch.
+- Add tests for new features or bug fixes
+- Ensure all tests pass before submitting a PR
+- Include both unit tests and integration tests where appropriate
+- For AI-related features, include tests that verify privacy safeguards
 
-## Security Considerations
+## Issue Reporting Guidelines
 
-We take security seriously at CloakFlow. If you discover a security vulnerability, please report it to us by sending an email to security@cloakflow.com instead of creating a public issue.
+### Bug Reports
+When reporting bugs, please include:
+- A clear, descriptive title
+- Steps to reproduce the issue
+- Expected behavior
+- Actual behavior
+- Screenshots or error logs if applicable
+- Environment details (OS, browser, etc.)
 
-## License and Copyright
+### Feature Requests
+When proposing features, please include:
+- A clear description of the feature
+- The motivation behind the feature
+- Potential implementation approach if you have one in mind
 
-CloakFlow is licensed under the [MIT License](LICENSE). By contributing to CloakFlow, you agree to release your contributions under this license.
+## Privacy Considerations
 
-## Acknowledgments
+As a privacy-focused application:
+- Ensure no personal data is committed to the repository
+- Follow our data minimization principles in code contributions
+- Document any data collection or processing in your PR
+- Consider privacy implications of any AI feature additions or modifications
 
-We would like to thank all our contributors for their hard work and dedication to the project. Your contributions are invaluable to us, and we look forward to seeing your future contributions.
+## License
+
+By contributing to CloakFlow, you agree that your contributions will be licensed under the project's MIT License. See the [LICENSE](LICENSE) file for details. All new files should include the MIT license header.
+
+Thank you for contributing to CloakFlow and helping us build privacy-focused productivity tools!
