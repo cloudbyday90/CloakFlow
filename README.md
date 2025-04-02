@@ -51,7 +51,7 @@ Special thanks to the open-source community for their contributions to the devel
 
 To get started with Cloakflow, please follow these steps:
 
-1. Clone the repository: `git clone https://github.com/username/Cloakflow.git`
+1. Clone the repository: `git clone https://github.com/cloudbyday90/CloakFlow.git`
 2. Install dependencies: `npm install` or `yarn install`
 3. Start the application: `npm start` or `yarn start`
 
@@ -69,7 +69,7 @@ Our roadmap includes:
 
 ## Documentation
 
-For detailed documentation, please visit our [Wiki](https://github.com/username/Cloakflow/wiki).
+For detailed documentation, please visit our [Wiki](https://github.com/cloudbyday90/CloakFlow/wiki).
 
 ## Demo
 
